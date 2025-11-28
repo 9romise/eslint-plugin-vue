@@ -158,6 +158,7 @@ Rules in this category are enabled for all presets provided by eslint-plugin-vue
 | [vue/no-spaces-around-equal-signs-in-attribute] | disallow spaces around equal signs in attribute | :wrench: | :three::two::lipstick: |
 | [vue/no-template-shadow] | disallow variable declarations from shadowing variables declared in the outer scope |  | :three::two::hammer: |
 | [vue/one-component-per-file] | enforce that each component should be in its own file |  | :three::two::hammer: |
+| [vue/prefer-use-template-ref] | require using `useTemplateRef` instead of `ref`/`shallowRef` for template refs |  | :three::hammer: |
 | [vue/prop-name-casing] | enforce specific casing for the Prop name in Vue components |  | :three::two::hammer: |
 | [vue/require-default-prop] | require default value for props |  | :three::two::hammer: |
 | [vue/require-explicit-emits] | require `emits` option with name triggered by `$emit()` | :bulb: | :three::hammer: |
@@ -274,7 +275,6 @@ For example:
 | [vue/prefer-prop-type-boolean-first] | enforce `Boolean` comes first in component prop types | :bulb: | :warning: |
 | [vue/prefer-separate-static-class] | require static class names in template to be in a separate `class` attribute | :wrench: | :hammer: |
 | [vue/prefer-true-attribute-shorthand] | require shorthand form attribute when `v-bind` value is `true` | :bulb: | :hammer: |
-| [vue/prefer-use-template-ref] | require using `useTemplateRef` instead of `ref`/`shallowRef` for template refs |  | :hammer: |
 | [vue/require-default-export] | require components to be the default export |  | :warning: |
 | [vue/require-direct-export] | require the component to be directly exported |  | :hammer: |
 | [vue/require-emit-validator] | require type definitions in emits | :bulb: | :hammer: |

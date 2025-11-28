@@ -10,6 +10,8 @@ since: v9.31.0
 
 > require using `useTemplateRef` instead of `ref`/`shallowRef` for template refs
 
+- :gear: This rule is included in all of `"plugin:vue/strongly-recommended"`, `*.configs["flat/strongly-recommended"]`, `"plugin:vue/recommended"` and `*.configs["flat/recommended"]`.
+
 ## :book: Rule Details
 
 Vue 3.5 introduced a new way of obtaining template refs via
